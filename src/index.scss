@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Mina:400,700');
+$white: #D2D3D3;
+$black: #212121;
+$orange: #F27420;
+$blue: #021521;
+$blueExhange: #1B262D;
+$grey: #1B262D;
+$greyHard: #504f4f;
+$gerIntense: #0c0c0c;
+$red: #F95A62;
+$green: #78C653;
+$blueWrapper: #1B262D;
+
 body {
+  min-height: 100vh;
+  background-color: $gerIntense;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Mina', sans-serif;
+}
+
+#exchange-nav {
+background-color: $grey !important;
+padding: 0 20px;
+height: 30px;
+  a {
+    color: #D2D3D3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    &:hover{
+      color:white;
+    }
+  }
+}
+.logo-menu {
+    margin-bottom: 9px;
+}
+.exchange-field {
+  background-color: $blueWrapper;
+  border-radius: 5px;
+  border: 1px solid #444;
 }
