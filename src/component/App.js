@@ -15,7 +15,6 @@ const App =()=> {
              </Col>
            </Row>
     </Container>
-
     );
 }
 

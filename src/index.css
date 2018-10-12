@@ -24,4 +24,15 @@ body {
 .exchange-field {
   background-color: #1B262D;
   border-radius: 5px;
-  border: 1px solid #444; }
+  border: 1px solid #444;
+  line-height: 1.2; }
+  .exchange-field span {
+    color: #D2D3D3;
+    font-size: 3.5rem; }
+  .exchange-field .exchange-percent {
+    font-size: 12px; }
+  .exchange-field .market-ticker {
+    font-size: 16px; }
+  .exchange-field .market-vol {
+    font-size: 12px;
+    font-weight: bolder; }

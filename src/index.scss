@@ -24,7 +24,7 @@ background-color: $grey !important;
 padding: 0 20px;
 height: 30px;
   a {
-    color: #D2D3D3;
+    color:$white;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
@@ -40,4 +40,20 @@ height: 30px;
   background-color: $blueWrapper;
   border-radius: 5px;
   border: 1px solid #444;
+  line-height: 1.2;
+  span{
+    color: $white;
+    font-size:3.5rem;
+  }
+  .exchange-percent{
+  font-size: 12px;  
+  }
+  .market-ticker{
+    font-size: 16px;
+  }
+  .market-vol{
+   font-size: 12px;
+   font-weight: bolder;
+
+  }
 }

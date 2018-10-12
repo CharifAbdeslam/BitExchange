@@ -8,6 +8,7 @@ import thunk from 'redux-thunk';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './component/App';
+import 'cryptocoins-icons/webfont/cryptocoins.css';
 import registerServiceWorker from './registerServiceWorker';
 
 const store=createStore(reducers,compose(
