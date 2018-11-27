@@ -12,13 +12,24 @@ $green: #78C653;
 $blueWrapper: #1B262D;
 
 body {
+  overflow-x: hidden;
   min-height: 100vh;
   background-color: $gerIntense;
   margin: 0;
   padding: 0;
   font-family: 'Mina', sans-serif;
 }
-
+.priceFont{
+  font-size: 12px !important;
+  color:#c9c5c5 !important;
+}
+.text-gray{
+  color:$grey;
+  font-size: 16px !important;
+}
+.cryptoicon{
+  line-height: 1.09
+}
 #exchange-nav {
 background-color: $grey !important;
 padding: 0 20px;
@@ -46,14 +57,44 @@ height: 30px;
     font-size:3.5rem;
   }
   .exchange-percent{
-  font-size: 12px;  
+  font-size: 12px !important;
   }
   .market-ticker{
     font-size: 16px;
   }
   .market-vol{
    font-size: 12px;
-   font-weight: bolder;
+   color:gray;
 
+  }
+  .titlle-tickers{
+    color:$white;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+  table {
+    text-align: center;
+    width: 98%;
+    margin-left: 1%;
+    background-color: #161c23;
+    border-radius: 5px;
+    tr {
+      border-bottom: none;
+    }
+
+    th {
+      padding: 1px 0;
+      color: $white;
+      font-weight: normal;
+      font-size: 12px;
+      border: none;
+    }
+
+    td {
+      padding: 4px 0;
+      color: $white;
+      font-size: 12px;
+      border: none;
+    }
   }
 }
